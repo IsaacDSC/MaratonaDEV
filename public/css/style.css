@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    background-color: rgb(248, 246, 246);
+}
+
+
+/*alinhamentos-espaçamentos-larguras e aluras*/
+
+header,
+main,
+footer {
+    text-align: center;
+}
+
+header,
+img,
+main,
+.form {
+    margin: 70px auto;
+}
+
+header p,
+button {
+    margin-top: 20px;
+}
+
+.form {
+    background-color: rgb(206, 23, 54);
+    height: 250px;
+    width: 40%;
+    margin: 0 30%;
+    border-radius: 6px;
+    transition: 2s;
+    display: none;
+}
+
+.form input {
+    height: 30px;
+    width: 45%;
+    border: white 1px solid;
+    border-radius: 6px;
+    background-color: rgba(206, 23, 54, 0.705);
+    color: white;
+    font-family: bold;
+    text-align: center;
+    margin-left: 30%;
+    position: relative;
+    top: 0;
+}
+
+.form ul li {
+    display: block;
+    margin-top: 5px;
+}
+
+.form ul {
+    margin-left: 35%;
+    margin-top: -30px;
+    position: relative;
+}
+
+.form h2 {
+    position: relative;
+    color: white;
+    width: 35%;
+    font-size: 26px;
+    top: 80px;
+    margin-left: 10%;
+}
+
+.form button {
+    width: 45%;
+    height: 40px;
+    margin-left: 30%;
+}
+
+.blood ul li {
+    display: inline;
+    text-align: left;
+}
+
+.ultimosDoadores ul li {
+    display: inline;
+    margin-left: 20px;
+}

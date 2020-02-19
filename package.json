@@ -1,0 +1,31 @@
+{
+  "name": "maratonadev",
+  "version": "1.0.0",
+  "description": "this maratona deve in rocketseat",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaacDSC/MaratonaDEV.git"
+  },
+  "keywords": [
+    "maratona",
+    "dev(17",
+    "18",
+    "19/02/2020)"
+  ],
+  "author": "IsaacDSC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsaacDSC/MaratonaDEV/issues"
+  },
+  "homepage": "https://github.com/IsaacDSC/MaratonaDEV#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mongoose": "^5.9.1"
+  }
+}
