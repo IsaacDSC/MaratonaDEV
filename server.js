@@ -30,7 +30,12 @@ mongoose.connect('mongodb://localhost/maratonadev', {
 
 //add Rotas
 app.get('/', (req, res) => {
-    res.render('home/home')
+    //res.render('home/home')
+    Doador.find().lean().then((doadores)=>{
+        res.render('home/home', {doadores: doadores})
+    }).catch((err)=>{
+        res.send('erro: ' + err)
+    })
 })
 app.post('/add', (req, res) => {
     // res.send('nome:' + req.body.name + 'email:' + req.body.email + 'sangue: ' + req.body.tipoSangue)
@@ -44,9 +49,6 @@ app.post('/add', (req, res) => {
     }).catch((err) => {
         res.send('error: ' + err)
     })
-})
-app.post('/doadores', (req, res) => {
-
 })
 
 const PORT = 3000

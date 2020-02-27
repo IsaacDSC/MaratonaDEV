@@ -21,32 +21,21 @@
     <h2>Últimos doadores</h2>
     <div class="blood">
         <ul>
-            <li class="blood1">AB+</li>
-            <li class="blood2">B+</li>
-            <li class="blood3">O+</li>
-            <li class="blood4">O-</li>
+             {{#each doadores}}
+            <li>{{name}}: {{blood}}</li>
+            {{/each}}
         </ul>
     </div>
     <div class="ultimosDoadores">
         <ul>
-            <li>
-                Diego Fernandes
-            </li>
-            <li>
-                Cleinton Souza
-            </li>
-            <li>
-                Robson Marques
-            </li>
-            <li>
-                Mark Brito
-            </li>
+            <li></li>
         </ul>
     </div>
-    </div>
-    </section>
+   
 </main>
+    </section>
 <footer>
-    <p>Com coração Rocketseat</p>
+    <p>De coração:IsaacDSC</p>
+    <p>Rocketseat</p>
 </footer>
 <script src="/js/modal.js"></script>
